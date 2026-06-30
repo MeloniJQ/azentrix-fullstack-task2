@@ -10,9 +10,6 @@ TaskFlow is a complete task management application (like Trello) built with:
 - **Backend**: Python Flask (simple!)
 - **Frontend**: HTML, CSS, JavaScript (no frameworks!)
 - **Database**: SQLite (automatic!)
-
-Perfect for students learning web development.
-
 ---
 
 ## ✨ Features
@@ -39,10 +36,6 @@ taskflow/
     ├── auth.html            (Login/Signup page)
     └── dashboard.html       (Kanban board)
 ```
-
-Super simple!
-
----
 
 ## 👤 Create Account & Explore
 
@@ -174,42 +167,59 @@ Functions like `create_demo_workspace()` are self-explanatory.
 
 ---
 
-## 🚀 Deployment
+## ⚙️ Installation & Setup
 
-### Local Development
+### Prerequisites
+
+* Python 3.14+
+* pip
+
+### Clone Repository
+
+```bash
+git clone <https://github.com/MeloniJQ/azentrix-fullstack-task2.git>
+cd azentrix-fullstack-task2
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Environment
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run Application
+
 ```bash
 python app.py
-# Works! Open http://localhost:5000
 ```
 
-### Share with Friends
-```bash
-# Get your IP address
-# Share: http://YOUR_IP:5000
-# Friends can access from their computers
+### Open Browser
+
+```text
+http://localhost:5000
 ```
-
-### Deploy to Cloud
-- **Heroku**: Very easy (add Procfile)
-- **PythonAnywhere**: Even easier (just upload)
-- **Render**: Free tier available
-- **Railway**: Simple deployment
-
-(More details in DEPLOYMENT section if needed)
-
 ---
 
-## 🐛 Common Issues & Solutions
-
-| Issue | Solution |
-|-------|----------|
-| "Python not found" | Install Python from python.org |
-| "No module named flask" | Run: `pip install flask flask-sqlalchemy` |
-| "Port already in use" | Change port in app.py last line |
-| "Database error" | Delete `taskflow.db` and restart |
-| "Can't connect to localhost" | Make sure port 5000 is not blocked |
-
----
 
 ## 📖 Code Overview
 
@@ -274,6 +284,24 @@ Free to use, modify, and share. Perfect for learning!
 - 🎯 Teaching concepts like REST APIs, databases, forms
 
 ---
+Below are the screen shots of websites attached 
+<br>
+<img width="1888" height="847" alt="Screenshot 2026-06-30 092025" src="https://github.com/user-attachments/assets/0949fcd5-60e5-45a3-a94b-3f7dd9741c31" />
+
+<img width="1897" height="857" alt="Screenshot 2026-06-30 092045" src="https://github.com/user-attachments/assets/57d009d5-b09c-4adb-abfe-834d2d2d0c5d" />
+
+<img width="1895" height="848" alt="Screenshot 2026-06-30 101314" src="https://github.com/user-attachments/assets/63021c96-1517-4532-91f5-c3a01d4d33bf" />
+
+<img width="1098" height="757" alt="Screenshot 2026-06-30 101331" src="https://github.com/user-attachments/assets/b19dbae6-bc9a-4219-9e94-33dd2d0d63b0" />
+
+<img width="772" height="821" alt="Screenshot 2026-06-30 101355" src="https://github.com/user-attachments/assets/79cb27f4-e071-449c-bf79-2530c3745a39" />
+
+<img width="1317" height="750" alt="image" src="https://github.com/user-attachments/assets/033d6a92-eb0c-4b29-8dc1-0dbcf000bc3b" />
+
+---
+Below is the screen recording of the working website 
+<br>
+https://www.loom.com/share/15a8373391a04a98b26307b009a4c20f
 
 
 
