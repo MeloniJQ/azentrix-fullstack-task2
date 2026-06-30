@@ -1,8 +1,7 @@
-# 📋 TaskFlow - Simple Student Version
+# 📋 TaskFlow 
 
-**A Beautiful Task Management System - No Docker, No Complexity!**
-
----
+-**Deployed link :** https://azentrix-fullstack-task2-rho.vercel.app
+-used vercel to deploy 
 
 ## 🎯 What is This?
 
